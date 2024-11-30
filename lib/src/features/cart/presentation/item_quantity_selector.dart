@@ -3,7 +3,6 @@ import 'package:flutter_svg/flutter_svg.dart';
 
 import '../../../constants/constants.dart';
 
-/// Item quantity selector with +/- buttons and a text value in the middle
 class ItemQuantitySelector extends StatelessWidget {
   const ItemQuantitySelector({
     super.key,

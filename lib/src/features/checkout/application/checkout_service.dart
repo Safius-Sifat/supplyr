@@ -8,10 +8,10 @@ import '../../order/data/fake_orders_repository.dart';
 import '../../order/domain/order.dart';
 import '../../product/data/products_repository.dart';
 
-part 'fake_checkout_service.g.dart';
+part 'checkout_service.g.dart';
 
-class FakeCheckoutService {
-  FakeCheckoutService(this.ref);
+class CheckoutService {
+  CheckoutService(this.ref);
   final Ref ref;
 
   Future<void> placeOrder() async {
@@ -52,6 +52,6 @@ class FakeCheckoutService {
 }
 
 @riverpod
-FakeCheckoutService checkoutService(Ref ref) {
-  return FakeCheckoutService(ref);
+CheckoutService checkoutService(Ref ref) {
+  return CheckoutService(ref);
 }

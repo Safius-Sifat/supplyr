@@ -8,7 +8,6 @@ import '../../../../constants/breakpoints.dart';
 import '../../domain/item.dart';
 import '../cart_total/cart_total_with_cta.dart';
 
-/// Responsive widget showing the cart items and the checkout button
 class ShoppingCartItemsBuilder extends StatelessWidget {
   const ShoppingCartItemsBuilder({
     super.key,
@@ -22,7 +21,6 @@ class ShoppingCartItemsBuilder extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // If there are no items, show a placeholder
     if (items.isEmpty) {
       return const EmptyPlaceholderWidget(
         message: 'Your shopping cart is empty',
@@ -57,8 +55,6 @@ class ShoppingCartItemsBuilder extends StatelessWidget {
         ),
       );
     } else {
-      // * on narrow layouts, show a [Column] with a scrollable list of items
-      // * and a pinned box at the bottom with the checkout button
       return Column(
         children: [
           Expanded(

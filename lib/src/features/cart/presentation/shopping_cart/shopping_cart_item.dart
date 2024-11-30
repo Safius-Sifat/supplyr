@@ -14,7 +14,6 @@ import '../../domain/item.dart';
 import '../item_quantity_selector.dart';
 import 'shopping_cart_screen_controller.dart';
 
-/// Shows a shopping cart item (or loading/error UI if needed)
 class ShoppingCartItem extends ConsumerWidget {
   const ShoppingCartItem({
     super.key,
@@ -25,9 +24,6 @@ class ShoppingCartItem extends ConsumerWidget {
   final Item item;
   final int itemIndex;
 
-  /// if true, an [ItemQuantitySelector] and a delete button will be shown
-  /// if false, the quantity will be shown as a read-only label (used in the
-  /// [PaymentPage])
   final bool isEditable;
 
   @override
@@ -53,7 +49,6 @@ class ShoppingCartItem extends ConsumerWidget {
   }
 }
 
-/// Shows a shopping cart item for a given product
 class ShoppingCartItemContents extends ConsumerWidget {
   const ShoppingCartItemContents({
     super.key,
@@ -66,9 +61,6 @@ class ShoppingCartItemContents extends ConsumerWidget {
   final Item item;
   final int itemIndex;
   final bool isEditable;
-
-  // * Keys for testing using find.byKey()
-  static Key deleteKey(int index) => Key('delete-$index');
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {

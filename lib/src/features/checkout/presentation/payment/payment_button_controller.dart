@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
-import '../../application/fake_checkout_service.dart';
+import '../../application/checkout_service.dart';
 
 part 'payment_button_controller.g.dart';
 

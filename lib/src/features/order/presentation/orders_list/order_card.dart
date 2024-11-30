@@ -9,7 +9,6 @@ import '../../../cart/domain/item.dart';
 import '../../domain/order.dart';
 import 'order_item_list_tile.dart';
 
-/// Shows all the details for a given order
 class OrderCard extends StatelessWidget {
   const OrderCard({super.key, required this.order});
   final Order order;
