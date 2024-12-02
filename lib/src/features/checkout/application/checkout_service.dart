@@ -2,7 +2,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 import '../../../utils/current_date_provider.dart';
-import '../../cart/data/local/local_cart_repository.dart';
+import '../../cart/data/local_cart_repository.dart';
 import '../../cart/domain/cart.dart';
 import '../../order/data/fake_orders_repository.dart';
 import '../../order/domain/order.dart';

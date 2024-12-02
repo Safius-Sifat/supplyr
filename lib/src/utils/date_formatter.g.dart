@@ -6,7 +6,7 @@ part of 'date_formatter.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$dateFormatterHash() => r'acbf69f0d7e40c9df37b54b28eeec5dbb982a723';
+String _$dateFormatterHash() => r'9a8081519799f20b71e851dbd516c4ab05cdde42';
 
 /// See also [dateFormatter].
 @ProviderFor(dateFormatter)

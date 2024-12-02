@@ -7,12 +7,9 @@ part of 'current_date_provider.dart';
 // **************************************************************************
 
 String _$currentDateBuilderHash() =>
-    r'69fac4353662a12b9ee09fd957d940449f74ceda';
+    r'73b20eced84d4483bdb8779b5c300de2f3779c3b';
 
-/// A provider that returns a function that returns the current date.
-/// This makes it easy to mock the current date in tests.
-///
-/// Copied from [currentDateBuilder].
+/// See also [currentDateBuilder].
 @ProviderFor(currentDateBuilder)
 final currentDateBuilderProvider =
     AutoDisposeProvider<DateTime Function()>.internal(

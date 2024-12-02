@@ -1,7 +1,7 @@
 import 'package:path_provider/path_provider.dart';
 import 'package:sembast/sembast_io.dart';
 
-import '../../domain/cart.dart';
+import '../domain/cart.dart';
 import 'local_cart_repository.dart';
 
 class SembastCartRepository implements LocalCartRepository {

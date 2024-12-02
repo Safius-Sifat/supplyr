@@ -6,8 +6,8 @@ import 'package:sentry_flutter/sentry_flutter.dart';
 import 'src/app.dart';
 import 'src/exception/async_error_logger.dart';
 import 'src/exception/error_logger.dart';
-import 'src/features/cart/data/local/local_cart_repository.dart';
-import 'src/features/cart/data/local/sembast_cart_repository.dart';
+import 'src/features/cart/data/local_cart_repository.dart';
+import 'src/features/cart/data/sembast_cart_repository.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

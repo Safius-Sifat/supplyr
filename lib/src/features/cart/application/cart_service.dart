@@ -6,7 +6,7 @@ import 'package:supplyr/src/features/cart/domain/mutable_cart.dart';
 
 import '../../product/data/products_repository.dart';
 import '../../product/domain/product_model.dart';
-import '../data/local/local_cart_repository.dart';
+import '../data/local_cart_repository.dart';
 import '../domain/cart.dart';
 import '../domain/item.dart';
 
